@@ -1,0 +1,1 @@
+export { StrengthBar } from './components/StrengthBar';
