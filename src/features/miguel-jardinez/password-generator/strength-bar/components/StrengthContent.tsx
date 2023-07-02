@@ -14,7 +14,7 @@ export function StrengthContent() {
 
   return (
     <StrengthBarContentContainer>
-      <Typography variant={'heading'} uppercase={true} color={Colors.ALMOSTWHITE}>
+      <Typography variant={'heading'} color={Colors.ALMOSTWHITE}>
         { state.strength }
       </Typography>
       <StrengthBar>

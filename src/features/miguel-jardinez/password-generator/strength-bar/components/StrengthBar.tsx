@@ -7,8 +7,8 @@ import {Colors} from "@password/core/theme/types/colors";
 export const StrengthBar: React.FC = () => {
   return (
     <StrengthBarContainer>
-      <Typography variant={'body'} color={Colors.GREY} uppercase={true}>
-        Strength
+      <Typography variant={'body'} color={Colors.GREY}>
+        STRENGTH
       </Typography>
       <StrengthContent />
     </StrengthBarContainer>
