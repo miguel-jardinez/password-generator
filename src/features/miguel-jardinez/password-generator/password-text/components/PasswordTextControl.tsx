@@ -24,6 +24,7 @@ export const PasswordTextControl: React.FC<PasswordTextControlProps> = ({ placeh
       <PasswordTextStyled>
         <PasswordInputStyled
           type={'text'}
+          readOnly={true}
           value={state.password}
           placeholder={placeholder}
           maxLength={20}

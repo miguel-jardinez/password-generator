@@ -7,28 +7,26 @@ type variant = 'heading' | 'headingL' | 'body'
 interface TypographyProps {
   variant: variant,
   children: React.ReactNode
-  uppercase?: boolean;
   color: Colors
 }
 
 export const Typography: React.FC<TypographyProps> = ({
   variant,
   children,
-  uppercase = false ,
   color
 }) => {
 
   switch (variant) {
     case "headingL":
-      return <HeadingL uppercase={uppercase} color={color}>{ children }</HeadingL>
+      return <HeadingL color={color}>{ children }</HeadingL>
 
     case "heading":
-      return <Heading uppercase={uppercase} color={color}>{ children }</Heading>
+      return <Heading color={color}>{ children }</Heading>
 
     case "body":
-      return <Body uppercase={uppercase} color={color}> { children } </Body>
+      return <Body color={color}> { children } </Body>
 
     default:
-      return <Body uppercase={uppercase} color={color}> { children } </Body>
+      return <Body color={color}> { children } </Body>
   }
 }

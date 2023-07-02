@@ -33,23 +33,23 @@ export const PasswordCheckboxList = () => {
   return (
     <CheckboxContainer>
       <CheckboxItemContainer>
-        <Checkbox id="checkbox-upper" onClick={() => onHandleCheck('upperCase')} checked={state.configuration.upperCase} type={"checkbox"} />
+        <Checkbox id="checkbox-upper" onChange={() => onHandleCheck('upperCase')} checked={state.configuration.upperCase} type={"checkbox"} />
         <CheckboxItemLabel htmlFor="checkbox-upper"  >Include Uppercase Letters</CheckboxItemLabel>
       </CheckboxItemContainer>
 
       <CheckboxItemContainer>
-        <Checkbox id="checkbox-lower" onClick={() => onHandleCheck('lowerCase')} checked={state.configuration.lowerCase} type={"checkbox"} />
+        <Checkbox id="checkbox-lower" onChange={() => onHandleCheck('lowerCase')} checked={state.configuration.lowerCase} type={"checkbox"} />
         <CheckboxItemLabel htmlFor="checkbox-lower" >Include Lowercase Letters</CheckboxItemLabel>
       </CheckboxItemContainer>
 
 
       <CheckboxItemContainer>
-        <Checkbox id="checkbox-number" onClick={() => onHandleCheck('numbers')} checked={state.configuration.numbers} type={"checkbox"} />
+        <Checkbox id="checkbox-number" onChange={() => onHandleCheck('numbers')} checked={state.configuration.numbers} type={"checkbox"} />
         <CheckboxItemLabel htmlFor="checkbox-number" >Include Numbers</CheckboxItemLabel>
       </CheckboxItemContainer>
 
       <CheckboxItemContainer>
-        <Checkbox id="checkbox-symbols" onClick={() => onHandleCheck('symbols')} checked={state.configuration.symbols} type={"checkbox"} />
+        <Checkbox id="checkbox-symbols" onChange={() => onHandleCheck('symbols')} checked={state.configuration.symbols} type={"checkbox"} />
         <CheckboxItemLabel htmlFor="checkbox-symbols">Include Symbols</CheckboxItemLabel>
       </CheckboxItemContainer>
     </CheckboxContainer>
