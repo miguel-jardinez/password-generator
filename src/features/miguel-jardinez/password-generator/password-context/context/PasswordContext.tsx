@@ -1,9 +1,8 @@
 import {createContext, Dispatch} from "react";
 import {
   ActionTypes,
-  GeneratePassword,
   initialState,
-  PasswordInitialState, reducer
+  PasswordInitialState
 } from "@password/features/miguel-jardinez/password-generator/password-context/reducer/passwordReducer";
 
 interface PasswordContext {

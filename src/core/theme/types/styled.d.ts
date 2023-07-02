@@ -1,4 +1,3 @@
-import {} from 'styled-components';
 import { passwordTheme } from "@password/core/theme/theme";
 
 type CustomTheme = typeof passwordTheme;

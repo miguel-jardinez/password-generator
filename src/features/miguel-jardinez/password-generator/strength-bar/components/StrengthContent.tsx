@@ -1,7 +1,6 @@
 import {
   StrengthBar,
   StrengthBarContentContainer,
-  StrengthBarItem,
 } from "@password/features/miguel-jardinez/password-generator/strength-bar/styles/StrengthBar.styled";
 import {Typography} from "@password/core/components/typography/Typography";
 import {Colors} from "@password/core/theme/types/colors";

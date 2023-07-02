@@ -1,5 +1,4 @@
 import styled from "styled-components";
-import { CopyIcon } from "@password/core/icons/Copy/Copy";
 
 export const TitleContainer = styled.div`
   text-align: center;
