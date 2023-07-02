@@ -44,6 +44,14 @@ export const StrengthBarItems = () => {
           <StrengthBarItem color={Colors.NEONGREEN} />
         </>
       )
-
+    default:
+      return (
+        <>
+          <StrengthBarItem />
+          <StrengthBarItem />
+          <StrengthBarItem />
+          <StrengthBarItem />
+        </>
+      )
   }
 }

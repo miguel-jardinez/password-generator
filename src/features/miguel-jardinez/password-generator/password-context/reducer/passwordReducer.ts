@@ -12,7 +12,7 @@ export interface ConfigurationPassword {
   symbols: boolean;
 }
 
-export type PasswordStrength = 'TOO WEAK!' | 'WEAK' | 'MEDIUM' | 'STRONG'
+export type PasswordStrength = 'TOO WEAK!' | 'WEAK' | 'MEDIUM' | 'STRONG' | ''
 
 export interface PasswordInitialState {
   password: string;
@@ -34,11 +34,11 @@ export type ActionTypes = GeneratePassword | SliderChange | ChangeConfiguration 
 
 export const initialState: PasswordInitialState = {
   password: '',
-  sliderLength: 10,
-  strength: 'TOO WEAK!',
+  sliderLength: 0,
+  strength: '',
   configuration: {
     lowerCase: false,
-    upperCase: true,
+    upperCase: false,
     numbers: false,
     symbols: false
   }

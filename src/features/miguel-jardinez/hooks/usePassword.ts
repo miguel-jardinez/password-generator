@@ -33,8 +33,8 @@ export const usePassword = () => {
 
 
   const checkPassword = (password: string) => {
-    const tooWeak = configuration.length === 1 && password.length < 10;
-    const weak = configuration.length === 2 && password.length > 10;
+    const tooWeak = configuration.length === 1;
+    const weak = configuration.length === 2;
     const medium = configuration.length === 3 && password.length > 6;
     const strong = configuration.length === 4 && password.length > 8 ;
 
