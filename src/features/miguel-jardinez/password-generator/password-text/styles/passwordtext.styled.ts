@@ -14,7 +14,7 @@ export const PasswordTextStyled = styled.div`
   margin-bottom: ${({ theme }) => theme.spacing.small};
 `
 export const PasswordInputStyled = styled.input`
-  font-size: ${({ theme }) => theme.fonts_size.heading_medium};
+  font-size: ${({ theme }) => theme.fonts_size.heading_large};
   font-family: JetBrainsMonoBold;
   background-color: transparent;
   border: 0;
