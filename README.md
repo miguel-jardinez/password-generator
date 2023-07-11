@@ -18,17 +18,17 @@ Password application build using Next js and hooks for the state management
 )
 
 ## Color Reference
-| Color             | Hex                                                        |
-| ----------------- | ---------------------------------------------------------- |
-| ALMOSTWHITE | ![#E6E5EA](https://via.placeholder.com/10/E6E5EA?text=+) #E6E5EA |
-| DARKGREY | ![#24232C](https://via.placeholder.com/10/24232C?text=+) #24232C |
-| GREY | ![#817D92](https://via.placeholder.com/10/817D92?text=+) #817D92 |
-| DARK | ![#18171F](https://via.placeholder.com/10/18171F?text=+) #18171F |
-| NEONGREEN | ![#A4FFAF](https://via.placeholder.com/10/A4FFAF?text=+) #A4FFAF |
-| Red | ![#F64A4A](https://via.placeholder.com/10/F64A4A?text=+) #F64A4A |
-| Orange | ![#FB7C58](https://via.placeholder.com/10/FB7C58?text=+) #FB7C58 |
-| Yellow | ![#F8CD65](https://via.placeholder.com/10/F8CD65?text=+) #F8CD65 |
-| Background | ![#08070B](https://via.placeholder.com/10/08070B?text=+) #08070B |
+| Color        | Hex                                                        |
+|--------------| ---------------------------------------------------------- |
+| Almost white | ![#E6E5EA](https://via.placeholder.com/10/E6E5EA?text=+) #E6E5EA |
+| Dark grey    | ![#24232C](https://via.placeholder.com/10/24232C?text=+) #24232C |
+| Grey         | ![#817D92](https://via.placeholder.com/10/817D92?text=+) #817D92 |
+| Dark         | ![#18171F](https://via.placeholder.com/10/18171F?text=+) #18171F |
+| Neo green    | ![#A4FFAF](https://via.placeholder.com/10/A4FFAF?text=+) #A4FFAF |
+| Red          | ![#F64A4A](https://via.placeholder.com/10/F64A4A?text=+) #F64A4A |
+| Orange       | ![#FB7C58](https://via.placeholder.com/10/FB7C58?text=+) #FB7C58 |
+| Yellow       | ![#F8CD65](https://via.placeholder.com/10/F8CD65?text=+) #F8CD65 |
+| Background   | ![#08070B](https://via.placeholder.com/10/08070B?text=+) #08070B |
 
 
 ## Authors
