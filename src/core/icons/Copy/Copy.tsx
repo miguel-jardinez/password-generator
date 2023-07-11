@@ -2,7 +2,7 @@ import {Colors} from "@password/core/theme/types/colors";
 import React, {useState} from "react";
 import {CopyStyled, IconContainer} from "@password/core/icons/Copy/copy.styled";
 import {Typography} from "@password/core/components/typography/Typography";
-import {usePasswordContext} from "@password/features/miguel-jardinez/hooks/usePasswordContext";
+import {usePasswordContext} from "@password/features/password-generator/hooks/usePasswordContext";
 
 interface ArrowRightProps {
   color: Colors,

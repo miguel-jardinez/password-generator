@@ -2,7 +2,7 @@ import type { AppProps } from 'next/app'
 import { PasswordThemeProvider } from "@password/core/theme/PasswordThemeProvider";
 import {GlobalStyles} from "@password/core/theme/GlobalStyles";
 import Head from "next/head";
-import {PasswordContextProvider} from "@password/features/miguel-jardinez/password-generator/password-context/context/PasswordContextProvider";
+import {PasswordContextProvider} from "@password/features/password-generator/password-context/context/PasswordContextProvider";
 
 export default function App({ Component, pageProps }: AppProps) {
   return (

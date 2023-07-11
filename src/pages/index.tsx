@@ -1,4 +1,4 @@
-import { PasswordPage } from "../features/miguel-jardinez/password-generator/password-page";
+import { PasswordPage } from "@password/features/password-generator/password-page";
 
 export default function Home() {
   return (
